@@ -15,8 +15,8 @@ defaults:
     working-directory: ./sellinsellout
 
 env:
-  DATABRICKS_TOKEN: ${{ secrets.PROD_AZURE_SP_TENANT_ID }}
-  DATABRICKS_URL: ${{ secrets.PROD_AZURE_SP_APPLICATION_ID }}
+  DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+  DATABRICKS_URL: ${{ secrets.DATABRICKS_URL }}
 
 jobs:
   prod:

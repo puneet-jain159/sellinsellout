@@ -8,8 +8,8 @@ defaults:
     working-directory: ./sellinsellout/
 
 env:
-  DATABRICKS_TOKEN: ${{ secrets.STAGING_AZURE_SP_TENANT_ID }}
-  DATABRICKS_URL: ${{ secrets.STAGING_AZURE_SP_CLIENT_SECRET }}
+  DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+  DATABRICKS_URL: ${{ secrets.DATABRICKS_URL }}
 
 concurrency: sellinsellout-feature-training-integration-test-staging
 
